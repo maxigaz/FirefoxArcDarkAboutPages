@@ -8,7 +8,7 @@
 
 @-moz-document url("about:addons"){
   page{ background-color: rgb(46,54,69) !important; }
-	
+
 	/* Addon list */
 	.category, .category-name, .detail-view-container { color: white; }
 	.category[selected], .category.selected { color: cyan; }
