@@ -21,6 +21,11 @@
 	/* Addon preferences */
 	#detail-desc-container { color: rgb(250, 250, 250) !important; }
 	#detail-summary { color: rgb(255, 255, 255) !important; }
+	#detail-rows { color: rgb(250, 250, 250) !important; }
+
+	/* The following SHOULD work, but it doesn't :S */
+	.detail-row, .detail-row-complex { border-top-color: rgb(88, 94, 116) !important; }
+	.settings .settingRow .content { border-top-color: rgb(88, 94, 116) !important; color: rgb(255, 255, 255) !important; }
 }
 
 @-moz-document url("about:preferences"){
