@@ -1,0 +1,28 @@
+@-moz-document url("about:newtab") {
+	body{background-color:#404552!important;}
+}
+
+@-moz-document url("about:blank") {
+	body{background-color:#404552!important;}
+}
+
+@-moz-document url("about:addons"){
+  page{ background-color: rgb(46,54,69) !important; }
+	
+	/* Addon list */
+	.category, .category-name, .detail-view-container { color: white; }
+	.category[selected], .category.selected { color: cyan; }
+	.addon { color: white !important; border-bottom-color: rgb(78, 91, 116) !important;; }
+	.addon[selected] { background-color: rgb(34, 40, 50) !important; }
+	.alert { background-color: rgb(56, 60, 74) !important; color: rgb(250, 250, 250) !important; border-color: rgb(22, 22, 22) !important; }
+	.addon-control, .header-button, textbox { background-color: rgb(68, 73, 90) !important; transition: background-color 0.2s; color: rgb(250, 250, 250) !important; border-color: rgb(22, 22, 22) !important; }
+	.addon-control:hover, .header-button:hover, textbox:hover { background-color: rgb(85, 91, 112) !important; transition: background-color 0.2s; }
+	
+	/* Addon preferences */
+	#detail-desc-container { color: rgb(250, 250, 250) !important; }
+	#detail-summary { color: rgb(255, 255, 255) !important; }
+}
+
+@-moz-document url("about:preferences"){
+  page{ background-color: rgb(46,54,69) !important; }
+}
