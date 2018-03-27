@@ -31,4 +31,17 @@
 
 @-moz-document url("about:preferences"){
   page{ background-color: rgb(46,54,69) !important; }
+	.category, .category-name, .detail-view-container { color: white; }
+	
+	/* General page */
+	.search-container { background-color: rgb(46,54,69) !important; }
+	.main-content { color: #eee; }
+	radio:hover, checkbox:hover { color: #0A84FF !important; }
+	button, textbox, menulist { background-color: rgb(68, 73, 90) !important; transition: background-color 0.2s; color: rgb(250, 250, 250) !important; border-color: rgb(22, 22, 22) !important; }
+	button:hover, textbox:hover, menulist:hover { background-color: rgb(85, 91, 112) !important; transition: background-color 0.2s; }
+	.checkbox-check, .radio-check { background-color: rgb(68, 73, 90) !important; border-color: rgb(22, 22, 22) !important; box-shadow: none !important; }
+	treecol { background-color: rgb(34, 40, 50) !important; }
+	richlistbox, listbox { border: 1px solid color(30, 30, 30) !important; border-image: none; }
+	richlistitem { background-color: rgb(46, 54, 69); color: white; }
+	
 }
