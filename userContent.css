@@ -18,6 +18,7 @@
 	.addon-control, .header-button, textbox { background-color: rgb(68, 73, 90) !important; transition: background-color 0.2s; color: rgb(250, 250, 250) !important; border-color: rgb(22, 22, 22) !important; }
 	.addon-control:hover, .header-button:hover, textbox:hover { background-color: rgb(85, 91, 112) !important; transition: background-color 0.2s; }
 	.addon-view[pending="disable"], .addon-view[pending="uninstall"] { --view-highlight-color: #252525 !important;; }
+	#updates-noneFound { color: #eee; }
 	
 	/* Addon preferences */
 	#detail-desc-container { color: rgb(250, 250, 250) !important; }
