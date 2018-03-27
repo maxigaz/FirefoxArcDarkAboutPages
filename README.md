@@ -4,4 +4,4 @@ A few tweaks to [userContent.css](http://kb.mozillazine.org/UserContent.css), in
 
 ## How to install
 
-Copy userContent.css into your [profile folder](http://kb.mozillazine.org/Profile_folder) and restart Firefox.
+Copy userContent.css into your [profile folder](http://kb.mozillazine.org/Profile_folder) and restart Firefox. (If userContent.css already exists, I suggest you back it up before overwriting it.)
